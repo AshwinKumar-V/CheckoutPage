@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Checkout</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="./css/master.css">
+        <link rel="icon" href="">
+    </head>
+    <body>
+
+        <h1>Checkout</h1>
+
+        <div class="content_wrapper">
+                <form class="contact_form">
+                    <div class="contact_info block">
+                        <h4>Contact information</h4>
+                        <div class="email">
+                            <label>E-mail</label>
+                            <input type="text" id="email" name="email" placeholder="Enter your email...">
+                        </div>
+                        <div class="phone">
+                            <label>Phone</label>
+                            <input type="tel" id="phone" name="phone" placeholder="Enter your phone...">
+                        </div>
+                    </div>
+
+                    <div class="shipping_det block">
+                        <h4>Shipping address</h4>
+                        <div class="full_name">
+                            <label>Full name</label>
+                            <input type="text" id="full_name" name="full_name" placeholder="Your full name..">
+                        </div>
+                        <div class="address">
+                            <label>Address</label>
+                        <input type="text" id="address" name="address" placeholder="Your address..">
+                        </div>
+                        <div class="city">
+                            <label>City</label>
+                            <input type="text" id="city" name="city" placeholder="Your city..">
+                        </div>
+                        <div class="contact_form_country">
+                            <div class="country">
+                                <label>Country</label>
+                                <select id="country" name="country">
+                                    <option value="none" selected disabled hidden>Your country..</option>
+                                    <option value="India">India</option>
+                                    <option value="Japan">Japan</option>
+                                    <option value="UK">UK</option>
+                                    <option value="USA">USA</option>
+                                </select>
+                            </div>
+                            <div class="postal">
+                                <label>Postal code</label>
+                                <input type="text" id="postal" name="postal" placeholder="Your postal code..">
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="save_for_later">
+                        <input type="checkbox" id="save_for_later" name="save_for_later">
+                        <label>Save this information for next time</label>
+                    </div>
+
+                    <input type="submit" id="continue" name="continue" value="Continue">
+                </form>
+
+            <div class="cart">
+                <div class="item">
+                    <div class="item_img">
+                        <img src="./img/photo1.png" alt="item1">
+                    </div>
+                    <div class="item_text">
+                        <div class="item_text_price">
+                            <h5>Vintage Backbag</h5>
+                            <p>$54.99 <del>$94.99</del></p>
+                        </div>
+                        <div class="item_text_quantity">
+                            <button>+</button>
+                            <label>1</label>
+                            <button>-</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="item">
+                    <div class="item_img">
+                        <img src="./img/photo2.png" alt="item1">
+                    </div>
+                    <div class="item_text">
+                        <div class="item_text_price">
+                            <h5>Levi Shoes</h5>
+                            <p>$74.99 <del>$124.99</del></p>
+                        </div>
+                        <div class="item_text_quantity">
+                            <button>+</button>
+                            <label>1</label>
+                            <button>-</button>
+                        </div>
+                    </div>
+                </div>
+
+                <hr>
+                <div class="cart_total">
+                    <p>Shipping</p>
+                    <p>$19</p>
+                </div>
+                <hr>
+                <div class="cart_total">
+                    <p>Total</p>
+                    <p>$148.48</p>
+                </div>
+            </div>
+        </div>
+
+        <footer>
+            <p>created by <strong><u>AshwinKumar-V</u></strong> - devChallenges.io</p>
+        </footer>
+
+    </body>
+</html>
