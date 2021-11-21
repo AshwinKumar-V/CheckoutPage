@@ -101,8 +101,40 @@ h1{
         margin: 5% 0;
         align-self: flex-end;
     }
-    input[type="Submit"]:hover, input[type="Checkbox"]:hover{
+    input[type="Submit"]:hover, input[type="Checkbox"]:hover, .item_text_quantity button:hover{
         cursor: pointer;
+    }
+
+    input[type="Text"], select{
+        background-position: .7rem;
+        background-size:3.5%;
+        background-repeat: no-repeat;
+        padding-left: 3.2rem;
+    }
+    .contact_form_country select, .contact_form_country input[type="Text"]{
+        background-size:7%;
+    }
+
+    #email{
+        background-image: url("../img/email_black_24dp.svg");
+    }
+    #phone{
+        background-image: url("../img/call_black_24dp.svg");
+    }
+    #full_name{
+        background-image: url("../img/account_circle_black_24dp.svg");
+    }
+    #address{
+        background-image: url("../img/home_black_24dp.svg");
+    }
+    #city{
+        background-image: url("../img/location_city_black_24dp.svg");
+    }
+    #country{
+        background-image: url("../img/public_black_24dp.svg");
+    }
+    #postal{
+        background-image: url("../img/markunread_mailbox_black_24dp.svg");
     }
 
 .cart{
@@ -192,6 +224,12 @@ footer{
 @media screen and (max-width: 1440px) {
     body{
         font-size: 18px;
+    }
+    input[type="Text"], select{
+        background-size: 6%;
+    }
+    .contact_form_country select, .contact_form_country input[type="Text"]{
+        background-size:12%;
     }
 }
 
