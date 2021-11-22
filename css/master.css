@@ -69,6 +69,14 @@ h1{
         color: #828282;
     }
 
+    input:valid{
+        border-color: rgb(10, 199, 10);
+    }
+
+    input:invalid{
+        border-color: rgb(245, 51, 51);
+    }
+
     .block .contact_form_country{
         margin: 1% 0;
         flex-direction: row;
